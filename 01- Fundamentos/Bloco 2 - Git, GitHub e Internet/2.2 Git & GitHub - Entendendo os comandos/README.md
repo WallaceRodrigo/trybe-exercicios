@@ -1,1 +1,1 @@
-Uma linha
+*Criei o Repositório para exercícios* 
