@@ -1,0 +1,1 @@
+*Criei o Repositório para exercícios* 
