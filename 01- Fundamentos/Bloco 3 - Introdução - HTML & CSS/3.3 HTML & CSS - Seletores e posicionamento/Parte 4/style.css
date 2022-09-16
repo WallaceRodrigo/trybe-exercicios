@@ -5,15 +5,28 @@ div:hover {
 div:nth-child(odd) {
     background: lightgreen;
   }
+  /*OUTRO JEITO DE FAZER - GABARITO/* 
+  div:nth-of-type(1) {
+  background-color: red;
+} */
 
 #d1 {
     color: blue;
     font-style: italic;
 }
+/*OUTRO JEITO DE FAZER - GABARITO/* 
+div:nth-of-type(1) > h3 {
+  color: purple;
+} */
+
 #d2 {
     color: purple;
     font-style: italic;
 }
+/*OUTRO JEITO DE FAZER - GABARITO/* 
+div:nth-child(odd) h3 {
+  font-style: italic
+} */
 #d3 {
     color: yellow;
     font-style: italic;

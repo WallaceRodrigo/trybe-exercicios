@@ -10,11 +10,15 @@ ol {
 .orderedList li:nth-child(even) {
     color: green;
 }
+/* OUTRO JEITO DE FAZER - GABARITO /* 
+ol li:nth-child(even) {
+  color: green;
+} */
 
 .orderedList li:nth-child(odd) {
     text-transform: uppercase;
 }
-h1, h2, h3, h4{
+h1, h2 {
     color: red;
     margin-right: 50%;
 }
@@ -35,6 +39,10 @@ li {
 #link1:hover {
     color: orange;
 }
+/* OUTRO JEITO DE FAZER - GABARITO /* 
+#aliados li a[href*="stackoverflow"] {
+  color: orange;
+} */
 #link2:hover {
     color: greenyellow;
 }
@@ -55,6 +63,9 @@ li {
 #tresPrimeiros {
     color: blue;
 }
+/* OUTRO JEITO DE FAZER - GABARITO /*.links li:not(:nth-child(n + 4)) {
+    color: blue
+/*/
 
 #java {
     background-color: pink;
