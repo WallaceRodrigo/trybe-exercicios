@@ -1,14 +1,29 @@
-h1, p {
-    text-align: center;
+div:hover {
+    border: 5px solid black;
 }
 
-li:hover {
-    background-color: green;
+div:nth-child(odd) {
+    background: lightgreen;
+  }
+
+#d1 {
+    color: blue;
+    font-style: italic;
 }
-li:active {
-    font-family: Arial, sans-serif;
-    color: white;
+#d2 {
+    color: purple;
+    font-style: italic;
 }
-ul {
-    list-style: none;
+#d3 {
+    color: yellow;
+    font-style: italic;
+    font-size: 1.3em;
+}
+#d4 {
+    color: green;
+    font-style: italic;
+}
+#d5 {
+    color: lightcoral;
+    font-style: italic;
 }
