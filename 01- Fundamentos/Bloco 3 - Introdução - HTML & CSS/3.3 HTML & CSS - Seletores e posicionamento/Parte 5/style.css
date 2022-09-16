@@ -1,0 +1,62 @@
+* {
+    text-decoration: none;
+}
+
+ol {
+    background-color: yellow;
+    margin-right: 15%;
+}
+
+.orderedList li:nth-child(even) {
+    color: green;
+}
+
+.orderedList li:nth-child(odd) {
+    text-transform: uppercase;
+}
+h1, h2, h3, h4{
+    color: red;
+    margin-right: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;   
+}
+
+.orderedList em {
+    font-weight: bold;
+}
+
+#link1:hover {
+    color: orange;
+}
+#link2:hover {
+    color: greenyellow;
+}
+#link3:hover {
+    color: black;
+}
+#link4:hover {
+    color: yellow;
+}
+#link5:hover {
+    color: green;
+}
+
+.links {
+    font-weight: bold;
+}
+
+#tresPrimeiros {
+    color: blue;
+}
+
+#java {
+    background-color: pink;
+    margin-right: 93%;
+}
