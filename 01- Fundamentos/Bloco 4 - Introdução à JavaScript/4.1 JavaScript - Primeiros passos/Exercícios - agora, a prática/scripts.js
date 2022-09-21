@@ -49,3 +49,18 @@ if (l1 + l2 + l3 === 180) {
 
 //
 
+let piece = 'Bishop';
+
+switch(piece.toLowerCase()) {
+	case 'bishop':
+		console.log('Se move nas diagonais');
+	break;
+
+	default:
+		console.log('peça invalida');
+}
+
+//
+
+let note = 10 % 100;
+console.log(note);
