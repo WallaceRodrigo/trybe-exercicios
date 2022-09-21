@@ -6,14 +6,14 @@
 //Crie uma estrutura condicional utilizando o if, else if e else para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
 //Altere o valor da nota para verificar se as condições que você implementou funcionam.
 
-const note = 60;
+const note = 80;
 
 if (note >= 80){
 	console.log('Parabéns, você foi aprovada(o)!')
-};
-else if (note >= 60 && <80){
+}
+else if (note <80 && note >= 60){
 	console.log('Você está na nossa lista de espera')
-};
+}
 
 else {
 	console.log('Você foi reprovada(o)')
