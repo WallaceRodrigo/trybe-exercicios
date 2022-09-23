@@ -2,8 +2,9 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27,];
 let sum = 0;
 
 for (number of numbers) {
-  console.log(number);
+	console.log(number);
 }
+
 
 //
 
@@ -28,7 +29,7 @@ if (average > 20) {
 
 let higherNumber = numbers[0];
 
-for (let index = 1; index < numbers.length; index += 1) {
+for (let index = 0; index < numbers.length; index += 1) {
    if ( numbers[index] > higherNumber ) {
 			higherNumber = numbers[index];
    }
@@ -48,10 +49,17 @@ console.log(smallerNumber)
 
 //
 
+let results = 0;
+
 for (let index = 0; index < numbers.length; index += 1) {
   if( numbers[index] % 2 === 0){
-  console.log('PAR');
-  } else {
-  console.log('ÍMPAR');
-  }
+		results += 1;
+	}
 }
+if (results === 0) {
+  console.log('nenhum valor ímpar encontrado');
+} else {
+  console.log(results);
+}
+
+//
