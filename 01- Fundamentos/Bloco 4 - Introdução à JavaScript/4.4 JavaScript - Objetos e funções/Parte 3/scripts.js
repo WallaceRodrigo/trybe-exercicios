@@ -49,10 +49,13 @@ console.log(higherNumber2(5, 3, 2))
 
 //
 
-let vari = true
-
-function isPositive (vari) {
-  if (vari === true) {
-
+function isPositive (number) {
+  if (number >= 1) {
+    return 'positive';
+  }else if (number < 0) {
+    return 'negative';
+  }else {
+    return 'Zero';
   }
 }
+console.log(isPositive(-10))
