@@ -50,7 +50,7 @@ console.log(higherNumber2(5, 3, 2))
 //
 
 function isPositive (number) {
-  if (number >= 1) {
+  if (number >=  1) {
     return 'positive';
   }else if (number < 0) {
     return 'negative';
@@ -58,4 +58,29 @@ function isPositive (number) {
     return 'Zero';
   }
 }
-console.log(isPositive(-10))
+console.log(isPositive(0))
+
+//
+//AULA AO VIVO
+//function generate(character, num){
+//  let array = []
+//  for(let index = 1; index <=num; index +=1){
+//    array.push(character)
+//  }
+//  return array;
+//}
+//console.log(generate('a', 100))
+
+//
+
+function triangle (a1, a2, a3) {
+  if (a1 + a2 + a3 === 180){
+    return true
+  }else if (a1 + a2 + a3 !== 180){
+    return false
+  }else {
+    return 'ERROR'
+  }
+}
+
+console.log(triangle(60, 60, 60))
