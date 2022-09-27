@@ -106,8 +106,8 @@ const cost = 10;
 const sale = 30;
 
 if (cost >= 0 && sale >= 0) {
-  const totalcost = cost * 1.2;
-  const profit = (sale - totalcost) * 1000;
+  const totalCost = cost * 1.2;
+  const profit = (sale - totalCost) * 1000;
   console.log(profit);
 } else {
   console.log("Error, os valores não podem ser negativos");
