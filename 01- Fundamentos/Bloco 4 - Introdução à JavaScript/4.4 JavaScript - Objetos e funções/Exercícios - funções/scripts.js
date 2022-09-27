@@ -32,4 +32,23 @@ function smallest(numbers) {
   return smallestNumber
 } 
 
-console.log(smallest([2, 3, 6, 7, 10, 1]));
+console.log(smallest([2, 4, 6, 7, 10, 0, -3]));
+
+//
+
+function higherNames(names) {
+  let higherName = names [0];
+  for (let key in names) {
+    if (names[key].length > higherName.length){
+      higherName = names[key]
+    }
+  
+  }
+  
+  return higherName
+}
+
+console.log(higherNames(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']))
+
+//
+
