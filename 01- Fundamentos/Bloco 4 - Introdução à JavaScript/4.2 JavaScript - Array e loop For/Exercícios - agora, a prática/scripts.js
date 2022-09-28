@@ -26,7 +26,7 @@ if (average > 20) {
 }
 
 //
-
+//Auxilio do Gabarito//
 let higherNumber = numbers[0];
 
 for (let index = 0; index < numbers.length; index += 1) {
@@ -37,7 +37,7 @@ for (let index = 0; index < numbers.length; index += 1) {
 console.log(higherNumber)
 
 //
-
+//Auxilio do Gabarito//
 let smallerNumber = numbers[0];
 
 for (let index = 0; index < numbers.length; index += 1) {
@@ -63,7 +63,7 @@ if (results === 0) {
 }
 
 //
-
+//Auxilio do Gabarito//
 let numbers25 = [];
 
 for (let index = 1; index <= 25; index += 1) {
@@ -72,6 +72,7 @@ for (let index = 1; index <= 25; index += 1) {
 console.log(numbers25);
 
 //
+//Auxilio do Gabarito//
 let div = 0;
 
 for (let index = 0; index < numbers25.length; index += 1) {
