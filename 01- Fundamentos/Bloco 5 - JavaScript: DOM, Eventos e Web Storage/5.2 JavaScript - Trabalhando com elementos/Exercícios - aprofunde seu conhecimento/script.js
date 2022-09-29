@@ -31,14 +31,32 @@ createSectionLeft.appendChild(createImage);
 
 let createUnorderedList = document.createElement('ul');
 createSectionRight.appendChild(createUnorderedList);
+
 let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
 'Sete', 'Oito', 'Nove', 'Dez'];
+
 for (let index = 0; index < numbers.length; index += 1){
   let CreateListItem = document.createElement('li');
   CreateListItem.innerHTML = numbers[index];
   createUnorderedList.appendChild(CreateListItem);
 }
+
 for (let index = 1; index <= 3; index += 1){
 let createH3 = document.createElement('h3');
 createMain.appendChild(createH3);
+createH3.className = 'description';
 }
+
+createH1.className = 'title';
+
+let leftContent = document.querySelector('.left-content');
+leftContent.remove();
+//METODO(.removeChild) -> createMain.removeChild(leftContent);
+
+document.querySelector('.right-content').style.marginRight='auto'
+
+document.querySelector('.center-content').parentNode.style.backgroundColor = 'green';
+
+let unorderedList = document.querySelector('ul');
+unorderedList.lastChild.remove();
+unorderedList.lastChild.remove();
