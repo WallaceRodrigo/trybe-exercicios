@@ -25,3 +25,4 @@ secondAndLastChild.remove();
 //}
 //const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
 //segundoEUltimoFilhoDoFilho.remove();
+
