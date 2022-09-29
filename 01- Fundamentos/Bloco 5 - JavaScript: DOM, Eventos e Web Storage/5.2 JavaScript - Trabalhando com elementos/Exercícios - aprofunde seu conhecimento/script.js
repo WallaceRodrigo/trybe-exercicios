@@ -38,3 +38,7 @@ for (let index = 0; index < numbers.length; index += 1){
   CreateListItem.innerHTML = numbers[index];
   createUnorderedList.appendChild(CreateListItem);
 }
+for (let index = 1; index <= 3; index += 1){
+let createH3 = document.createElement('h3');
+createMain.appendChild(createH3);
+}
