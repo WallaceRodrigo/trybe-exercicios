@@ -52,3 +52,20 @@ console.log(higherNames(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana
 
 //
 
+function fizzBuzz(n) {
+  let fizzBuzzArray = [];
+  for (let index = 0; index < n.length; index += 1) {
+      if (n[index] % 3 === 0 && n[index] % 5 === 0) {
+          fizzBuzzArray.push('fizzBuzz');
+      } else if (n[index] % 3 === 0) {
+          fizzBuzzArray.push('Fizz');
+      } else if (n[index] % 5 === 0) {
+          fizzBuzzArray.push('Buzz');
+      } else {
+          fizzBuzzArray.push(n[index]);
+      }
+  }
+  return fizzBuzzArray;
+}
+console.log(fizzBuzz([2, 15, 7, 9, 45]));
+
