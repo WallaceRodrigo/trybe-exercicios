@@ -113,3 +113,13 @@ function dayMouseOut() {
 
 dayMouseOver();
 dayMouseOut();
+
+function createTask (string) {
+  let createSpam = document.createElement('spam');
+  let myTasks = document.querySelector('.my-tasks')
+
+  createSpam.innerHTML = string;
+  myTasks.appendChild(createSpam);
+}
+
+createTask('taks');
