@@ -138,7 +138,7 @@ addSubtitleTasks('green')
 
 function clickTask () {
   let selectedTasks = document.getElementsByClassName('task selected');
-  let myTasks = document.querySelector('.task')
+  let myTasks = document.getElementsByClassName('task')[0];
   myTasks.addEventListener('click', function(event) {
     if (selectedTasks.length === 0) {
       event.target.className = 'task selected';
@@ -149,3 +149,23 @@ function clickTask () {
 }
 
 clickTask()
+
+function setDayColor() {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let days = document.querySelector('#days');
+  let taskDiv = document.querySelector('.task');
+  let taskColor = taskDiv.style.backgroundColor;
+
+  days.addEventListener('click', function(event) {
+    let eventTargetColor = event.target.style.color;
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+      let color = selectedTask[0].style.backgroundColor;
+      event.target.style.color = color;
+    } else if (eventTargetColor === taskColor) {
+      event.target.style.color = '';
+    }
+  })
+}
+
+setDayColor();
+
