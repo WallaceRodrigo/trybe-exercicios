@@ -42,7 +42,7 @@ function createDays () {
 
 createDays();
 
-function createHolidayButton (string) {
+function createButton (string) {
 let createBnt = document.createElement('button')
 let buttonsContainer = document.querySelector('.buttons-container')
 
@@ -52,14 +52,13 @@ createBnt.innerHTML = string;
 buttonsContainer.appendChild(createBnt);
 }
 
-createHolidayButton('Feriados')
-createHolidayButton('Sexta-Feira')
+createButton('Feriados')
 
 function displayHolidays () {
   let getHolidayButton = document.querySelector('#btn-holiday');
   let getHolidays = document.querySelectorAll('.holiday');
   let backgroundColor = 'red'
-  let setNewColor = 'unset';
+  let setNewColor = '';
 
   getHolidayButton.addEventListener('click', function() {
     for (let index = 0; index < getHolidays.length; index += 1) {
@@ -73,6 +72,8 @@ function displayHolidays () {
 }
 
 displayHolidays();
+
+createButton('Sexta-Feira')
 
 function displayFriday () {
   let fridayButton = document.querySelector('.buttons-container').childNodes[2];
@@ -93,3 +94,22 @@ function displayFriday () {
 }
 
 displayFriday();
+
+function dayMouseOver () {
+  let days = document.querySelector('#days');
+  days.addEventListener('mouseover', function(event) {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+  })
+}
+
+function dayMouseOut() {
+  let days = document.querySelector('#days');
+  days.addEventListener('mouseout', function(event) {
+    event.target.style.fontSize = '20px';
+    event.target.style.fontWeight = '200';
+  });
+}
+
+dayMouseOver();
+dayMouseOut();
