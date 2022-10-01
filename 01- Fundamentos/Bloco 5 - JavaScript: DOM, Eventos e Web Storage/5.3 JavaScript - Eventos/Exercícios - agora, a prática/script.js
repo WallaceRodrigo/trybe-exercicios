@@ -53,12 +53,13 @@ buttonsContainer.appendChild(createBnt);
 }
 
 createHolidayButton('Feriados')
+createHolidayButton('Sexta-Feira')
 
 function displayHolidays () {
   let getHolidayButton = document.querySelector('#btn-holiday');
   let getHolidays = document.querySelectorAll('.holiday');
   let backgroundColor = 'red'
-  let setNewColor = 'white';
+  let setNewColor = 'unset';
 
   getHolidayButton.addEventListener('click', function() {
     for (let index = 0; index < getHolidays.length; index += 1) {
@@ -72,3 +73,23 @@ function displayHolidays () {
 }
 
 displayHolidays();
+
+function displayFriday () {
+  let fridayButton = document.querySelector('.buttons-container').childNodes[2];
+  let getFridays = document.querySelector('.friday');
+  let textFriday = 'SEXTOOU!!';
+  let textReset = 'unset';
+  fridayButton.id = 'btn-friday'
+
+  fridayButton.addEventListener('click', function() {
+    for (let index = 0; index < getFridays.length; index += 1){
+      if (getFridays[index].innerHTML !== textFriday) {
+        getFridays[index].innerHTML = textFriday;
+      } else {
+        getFridays[index].innerHTML = textReset;
+      }
+    }
+  })
+}
+
+displayFriday();
