@@ -123,3 +123,15 @@ function createTask (string) {
 }
 
 createTask('taks');
+
+
+function addSubtitleTasks (color) {
+  let createDiv = document.createElement('div');
+  let myTasks = document.querySelector('.my-tasks')
+
+  createDiv.style.backgroundColor = color
+  createDiv.className = 'taks'
+  myTasks.appendChild(createDiv)
+}
+
+addSubtitleTasks('green')
