@@ -122,7 +122,7 @@ function createTask (string) {
   myTasks.appendChild(createSpam);
 }
 
-createTask('taks');
+createTask('Projeto');
 
 
 function addSubtitleTasks (color) {
@@ -130,8 +130,22 @@ function addSubtitleTasks (color) {
   let myTasks = document.querySelector('.my-tasks')
 
   createDiv.style.backgroundColor = color
-  createDiv.className = 'taks'
+  createDiv.className = 'task'
   myTasks.appendChild(createDiv)
 }
 
 addSubtitleTasks('green')
+
+function clickTask () {
+  let selectedTasks = document.getElementsByClassName('task selected');
+  let myTasks = document.querySelector('.task')
+  myTasks.addEventListener('click', function(event) {
+    if (selectedTasks.length === 0) {
+      event.target.className = 'task selected';
+    } else {
+      event.target.className = 'task'
+    }
+  })
+}
+
+clickTask()
