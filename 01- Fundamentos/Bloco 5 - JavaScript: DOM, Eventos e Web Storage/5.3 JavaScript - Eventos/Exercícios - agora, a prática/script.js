@@ -76,17 +76,17 @@ displayHolidays();
 
 function displayFriday () {
   let fridayButton = document.querySelector('.buttons-container').childNodes[2];
-  let getFridays = document.querySelector('.friday');
-  let textFriday = 'SEXTOOU!!';
-  let textReset = 'unset';
   fridayButton.id = 'btn-friday'
+  let getFridays = document.querySelectorAll('.friday');
+  let textFriday = 'SEXTOOU!!';
+  let textReset = [4, 11, 18, 25];
 
   fridayButton.addEventListener('click', function() {
     for (let index = 0; index < getFridays.length; index += 1){
       if (getFridays[index].innerHTML !== textFriday) {
         getFridays[index].innerHTML = textFriday;
       } else {
-        getFridays[index].innerHTML = textReset;
+        getFridays[index].innerHTML = textReset[index];
       }
     }
   })
