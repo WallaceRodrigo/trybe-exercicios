@@ -1,0 +1,30 @@
+body {
+  background-color:  #034422;
+}
+
+.formData {
+  background-color: #E1F2D5;
+  border: 1px solid #034422;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+header {
+  text-align: center;
+  padding-top: 8px;
+}
+
+#textArea {
+  padding-top: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.date {
+  width: 40%;
+}
