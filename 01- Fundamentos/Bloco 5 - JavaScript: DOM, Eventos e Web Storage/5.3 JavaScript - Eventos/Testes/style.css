@@ -1,8 +1,19 @@
-
 .td {
   display: table-cell;
+  min-height: 40px;
+  min-width: 40px;
   height: 40px;
   width: 40px;
   border: 1px solid black;
+}
+
+.tr {
+  display: table-row;
+
+}
+
+#board-container {  
+  display: flex;
+  justify-content: center;
 }
 
