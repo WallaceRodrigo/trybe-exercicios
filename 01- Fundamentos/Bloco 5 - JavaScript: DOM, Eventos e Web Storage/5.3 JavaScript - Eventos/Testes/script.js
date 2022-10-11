@@ -11,14 +11,15 @@ createPixelBoardElement();
 // Tamanho do quadro inicial
 let numberOfRows = 5;
 let numberOfColumns = 5;
+let pixels = 5;
 
 // Função que cria e adiciona os pixels ao quadro
 function createPixelBoard() {
-  for (let rows = 0; rows < numberOfRows; rows += 1) {
+  for (let rows = 0; rows < pixels; rows += 1) {
     const newRow = document.createElement('div');
-    newRow.className = 'tr';
+    newRow.className = 'pixel tr';
     pixelBoard.appendChild(newRow);
-    for (let columns = 0; columns < numberOfColumns; columns += 1) {
+    for (let columns = 0; columns < pixels; columns += 1) {
       const newPixel = document.createElement('div');
       newPixel.className = 'pixel td';
       newRow.appendChild(newPixel);
