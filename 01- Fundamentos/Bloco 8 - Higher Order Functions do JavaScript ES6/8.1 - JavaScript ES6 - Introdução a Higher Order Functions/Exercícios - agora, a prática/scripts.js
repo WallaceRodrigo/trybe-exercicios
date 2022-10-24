@@ -14,3 +14,13 @@ const newEmployees = (func) => {
 
 console.log(newEmployees(newEmail()));
 
+const raffleResult = (apostedNumber) => {
+  const winnerNumber = parseInt(Math.random() * 5);
+  
+  if (apostedNumber === winnerNumber) {
+    return `Parabéns você ganhou, Numero Sorteado: ${winnerNumber}`;
+  }
+  return `Tente novamente, Numero Sorteado: ${winnerNumber}`;
+}
+
+console.log(raffleResult(1));
