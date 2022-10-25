@@ -1,6 +1,6 @@
 const books = require("./firstArray");
 
-const expectedResult = true;
+// const expectedResult = true;
 
 function someBookWasReleaseOnThe80s() {
   // escreva seu código aqui
