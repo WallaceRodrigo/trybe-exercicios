@@ -30,3 +30,5 @@ function oldBooksOrdered() {
 }
 
 console.log(oldBooksOrdered());
+
+module.exports = oldBooksOrdered;
