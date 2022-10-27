@@ -11,7 +11,7 @@ function studentAverage(students, grades) {
   // escreva seu código aqui
   return students.map((student, index) => ({ 
     name: student, 
-    average: grades[index].reduce((acc, curr) => (acc + curr)) / 5}))
+    average: grades[index].reduce((acc, curr) => (acc + curr)) / grades[index].length }))
 }
 
 console.log(studentAverage(students, grades));
