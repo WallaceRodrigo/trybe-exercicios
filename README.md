@@ -65,13 +65,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Front-End
 
-##### Bloco 9: JavaScript e Testes Assíncronos
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9.3 - Jest - Testes Assíncronos
-- [ ] 9.4 - Projeto - Carrinho de Compras
+##### Bloco 9: Introdução ao Frontend e JavaScript assíncrino
+- [x] 9.1 - Ambiente de desenvolvimente
+- [ ] 9.2 - JavaScript Assíncrono - Promises e fetch
+- [ ] 9.3 - Prática - Casa de câmbio
+- [ ] 9.4 - Async, await e testes assíncronos
+- [ ] 9.5 - Projeto - Carrinho de Compras
 
-##### Bloco 9: Introdução ao React
+##### Bloco 10: Introdução ao React
 - [ ] 10.1 - 'Hello, world!' no React!
 - [ ] 10.2 - Componentes React
 - [ ] 10.3 - Projeto - Solar System
