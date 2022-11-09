@@ -67,7 +67,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 9: Introdução ao Frontend e JavaScript assíncrino
 - [x] 9.1 - Ambiente de desenvolvimente
-- [ ] 9.2 - JavaScript Assíncrono - Promises e fetch
+- [x] 9.2 - JavaScript Assíncrono - Promises e fetch
 - [ ] 9.3 - Prática - Casa de câmbio
 - [ ] 9.4 - Async, await e testes assíncronos
 - [ ] 9.5 - Projeto - Carrinho de Compras
