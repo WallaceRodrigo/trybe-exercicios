@@ -2,7 +2,7 @@ import validator from 'validator';
 
 // Aqui, vamos selecionar, pelos ids, os campos em nossa página
 const campoDeTexto = document.querySelector('#value');
-const botao = document.querySelector('#button');
+const botão = document.querySelector('#button');
 const seletor = document.querySelector('#option');
 const textoDeSaida = document.querySelector('#answer');
 
@@ -29,3 +29,6 @@ botao.addEventListener('click', (event) => {
   // selecionar a chave de acordo com o selecionado no HTML
   textoDeSaida.innerHTML = `A validação retornou ${campos[seletor.value]}`;
 });
+
+fetch("https://api.goprogram.ai/inspiration")
+  .then(response => console.log(response));

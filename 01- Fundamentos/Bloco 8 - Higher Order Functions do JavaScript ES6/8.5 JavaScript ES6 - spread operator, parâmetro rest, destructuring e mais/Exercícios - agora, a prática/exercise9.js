@@ -1,4 +1,3 @@
-
 const yearSeasons = {
   spring: ['March', 'April', 'May'],
   summer: ['June', 'July', 'August'],
@@ -7,7 +6,7 @@ const yearSeasons = {
 };
 // yearSeasons: estações do ano.
 
-const { spring, summer, autumn, winter } = yearSeasons
-const months = [...spring, ...summer, ...autumn, ...winter]
+const { spring, summer, autumn, winter } = yearSeasons;
+const months = [...spring, ...summer, ...autumn, ...winter];
 
 console.log(months);
