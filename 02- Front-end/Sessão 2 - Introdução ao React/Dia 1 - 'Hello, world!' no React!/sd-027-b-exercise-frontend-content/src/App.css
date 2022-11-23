@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Header {
+  border: 1px solid black;
+}
+
+.Content {
+  text-align: start;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.Footer {
+  border: 1px solid black;
+}

@@ -1,4 +1,5 @@
 import Swal from 'sweetalert2';
+import fetch from 'node-fe'
 
 const buttonEl = document.querySelector('button');
 const inputEl = document.querySelector('input');
@@ -19,12 +20,11 @@ async function handleClick() {
       `;
       return '';
     });
-
+    
     if (data.erro === true) {
       preEl.innerHTML = 'CEP inválido!';
       throw new Error('');
     }
-
     return data;
   } catch (error) {
     return Swal.fire({
