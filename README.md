@@ -78,9 +78,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 2.3 - **Projeto** - Solar System
 
 ##### Bloco 3: Componentes com Estado, Eventos e Formulários com React
-- [ ] 3.1 - Componentes com estado e eventos
-- [ ] 3.2 - Formulários no React
-- [ ] 3.3 - **Projeto** - Tryunfo
+- [x] 3.1 - Componentes com estado e eventos
+- [x] 3.2 - Formulários no React
+- [x] 3.3 - **Projeto** - Tryunfo
 
 ##### Bloco 4: Ciclo de Vida de Componentes e React Router
 - [ ] 4.1 - Ciclo de vida de componentes
