@@ -1,0 +1,9 @@
+input, select {
+  margin-left: 10px;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+#house, #apart {
+  margin-right: 5px;
+}
