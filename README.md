@@ -65,8 +65,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Front-End
 
-##### Bloco 1: Introdução ao Frontend e JavaScript assíncrino
-- [x] 1.1 - Ambiente de desenvolvimente
+##### Bloco 1: Introdução ao Frontend e JavaScript assíncrono
+- [x] 1.1 - Ambiente de desenvolvimento
 - [x] 1.2 - JavaScript Assíncrono - Promises e fetch
 - [x] 1.3 - Prática - Casa de câmbio
 - [x] 1.4 - Async, await e testes assíncronos
