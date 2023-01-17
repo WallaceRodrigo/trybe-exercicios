@@ -85,14 +85,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 4: Ciclo de Vida de Componentes e React Router
 - [x] 4.1 - Ciclo de vida de componentes
 - [x] 4.2 - React Router
-- [ ] 4.3 - **Projeto** - TrybeTunes
+- [x] 4.3 - **Projeto** - TrybeTunes
 
 ##### Bloco 5:
-- [ ] 5.1 - Metodologias Ágeis
-- [ ] 5.2 - **Projeto** - Front-end Online Store
+- [x] 5.1 - Metodologias Ágeis
+- [x] 5.2 - **Projeto** - Front-end Online Store
 
 ##### Bloco 6: 
-- [ ] 6.1 - RTL - Primeiros passos
+- [x] 6.1 - RTL - Primeiros passos
 - [ ] 6.2 - RTL - Mocks e Inputs
 - [ ] 6.3 - RTL - Testando React Router
 - [ ] 6.4 - **Projeto** - Testes em React
