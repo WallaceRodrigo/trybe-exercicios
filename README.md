@@ -93,9 +93,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 6: 
 - [x] 6.1 - RTL - Primeiros passos
-- [ ] 6.2 - RTL - Mocks e Inputs
-- [ ] 6.3 - RTL - Testando React Router
-- [ ] 6.4 - **Projeto** - Testes em React
+- [x] 6.2 - RTL - Mocks e Inputs
+- [x] 6.3 - RTL - Testando React Router
+- [x] 6.4 - **Projeto** - Testes em React
 
 ##### Bloco 7: 
 - [ ] 7.1 - Introdução ao Redux - O estado global da aplicação
