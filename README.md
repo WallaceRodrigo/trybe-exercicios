@@ -98,7 +98,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6.4 - **Projeto** - Testes em React
 
 ##### Bloco 7: 
-- [ ] 7.1 - Introdução ao Redux - O estado global da aplicação
+- [x] 7.1 - Introdução ao Redux - O estado global da aplicação
 - [ ] 7.2 - Usando o Redux no React
 - [ ] 7.3 - Usando o Redux no React - Prática
 - [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
