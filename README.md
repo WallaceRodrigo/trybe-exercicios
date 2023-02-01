@@ -99,11 +99,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 7: 
 - [x] 7.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 7.2 - Usando o Redux no React
-- [ ] 7.3 - Usando o Redux no React - Prática
-- [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 7.5 - Testes em React-Redux
-- [ ] 7.6 - **Projeto** - Trybe Wallet
+- [x] 7.2 - Usando o Redux no React
+- [x] 7.3 - Usando o Redux no React - Prática
+- [x] 7.4 - Usando o Redux no React - Actions Assíncronas
+- [x] 7.5 - Testes em React-Redux
+- [x] 7.6 - **Projeto** - Trybe Wallet
 
 ##### Bloco 8: 
 - [ ] 8.1 - **Projeto** - Jogo de Trivia
