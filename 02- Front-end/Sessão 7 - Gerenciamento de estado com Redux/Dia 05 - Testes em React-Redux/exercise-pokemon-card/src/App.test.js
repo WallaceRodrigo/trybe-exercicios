@@ -10,7 +10,7 @@ jest.mock('./utils/randomNumber')
 
 describe('Página principal', () => {
   beforeEach(() => {
-    global.fetch = jest.fn(mockFetch);
+    global.fetch = jest.fn();
   });
 
   afterEach(() => {
