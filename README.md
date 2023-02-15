@@ -106,10 +106,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7.6 - **Projeto** - Trybe Wallet
 
 ##### Bloco 8: 
-- [ ] 8.1 - **Projeto** - Jogo de Trivia
+- [x] 8.1 - **Projeto** - Jogo de Trivia
 
 ##### Bloco 9: 
-- [ ] 9.1 - React Hooks - useState e useEffect
+- [x] 9.1 - React Hooks - useState e useEffect
 - [ ] 9.2 - Context API
 - [ ] 9.3 - Custom Hooks
 - [ ] 9.4 - **Projeto** - StarWars Datatable com Context API e Hooks
