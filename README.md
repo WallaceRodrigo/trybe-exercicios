@@ -87,17 +87,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4.2 - React Router
 - [x] 4.3 - **Projeto** - TrybeTunes
 
-##### Bloco 5:
+##### Bloco 5: Metodologias Ágeis
 - [x] 5.1 - Metodologias Ágeis
 - [x] 5.2 - **Projeto** - Front-end Online Store
 
-##### Bloco 6: 
+##### Bloco 6: Testes automatizados com React Testing Library
 - [x] 6.1 - RTL - Primeiros passos
 - [x] 6.2 - RTL - Mocks e Inputs
 - [x] 6.3 - RTL - Testando React Router
 - [x] 6.4 - **Projeto** - Testes em React
 
-##### Bloco 7: 
+##### Bloco 7: Gerenciamento de estado com Redux
 - [x] 7.1 - Introdução ao Redux - O estado global da aplicação
 - [x] 7.2 - Usando o Redux no React
 - [x] 7.3 - Usando o Redux no React - Prática
@@ -105,14 +105,29 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7.5 - Testes em React-Redux
 - [x] 7.6 - **Projeto** - Trybe Wallet
 
-##### Bloco 8: 
+##### Bloco 8: Projeto Jogo de Trivia
 - [x] 8.1 - **Projeto** - Jogo de Trivia
 
-##### Bloco 9: 
+##### Bloco 9: Context API e React Hooks
 - [x] 9.1 - React Hooks - useState e useEffect
-- [ ] 9.2 - Context API
-- [ ] 9.3 - Custom Hooks
-- [ ] 9.4 - **Projeto** - StarWars Datatable com Context API e Hooks
+- [x] 9.2 - Context API
+- [x] 9.3 - Custom Hooks
+- [x] 9.4 - **Projeto** - StarWars Datatable com Context API e Hooks
 
-##### Bloco 10: 
-- [ ] 10.1 - **Projeto** - App de Receitas
+##### Bloco 10: Projeto App de Receitas
+- [x] 10.1 - **Projeto** - App de Receitas
+
+## Back-End
+
+##### Bloco 1: Docker: Utilizando Containers
+- [x] 1.1 - Utilizando Containers - Docker
+- [ ] 1.2 - Manipulando Imagens no Docker
+- [ ] 1.3 - Orquestrando Containers com Docker Compose
+- [ ] 1.4 - **Projeto** - Docker Todo-List
+
+##### Bloco 2: Introdução à SQL
+- [ ] 2.1 - Banco de dados SQL
+- [ ] 2.2 - Encontrando dados em um banco de dados
+- [ ] 2.3 - Filtrando dados de forma específica
+- [ ] 2.4 - Manipulando tabelas
+- [ ] 2.5 - **Projeto** - All For One
