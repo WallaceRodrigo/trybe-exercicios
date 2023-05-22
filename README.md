@@ -121,13 +121,62 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Docker: Utilizando Containers
 - [x] 1.1 - Utilizando Containers - Docker
-- [ ] 1.2 - Manipulando Imagens no Docker
-- [ ] 1.3 - Orquestrando Containers com Docker Compose
-- [ ] 1.4 - **Projeto** - Docker Todo-List
+- [x] 1.2 - Manipulando Imagens no Docker
+- [x] 1.3 - Orquestrando Containers com Docker Compose
+- [x] 1.4 - **Projeto** - Docker Todo-List
 
 ##### Bloco 2: Introdução à SQL
-- [ ] 2.1 - Banco de dados SQL
-- [ ] 2.2 - Encontrando dados em um banco de dados
-- [ ] 2.3 - Filtrando dados de forma específica
-- [ ] 2.4 - Manipulando tabelas
-- [ ] 2.5 - **Projeto** - All For One
+- [x] 2.1 - Banco de dados SQL
+- [x] 2.2 - Encontrando dados em um banco de dados
+- [x] 2.3 - Filtrando dados de forma específica
+- [x] 2.4 - Manipulando tabelas
+- [x] 2.5 - **Projeto** - All For One
+
+##### Bloco 3: Funções SQL, JOINs e Normalização
+- [x] 3.1 - Funções mais usadas no SQL
+- [x] 3.2 - Descomplicando JOINs
+- [x] 3.3 - Transformando ideias em um modelo de banco de dados
+- [x] 3.4 - **Projeto** - Aula ao vivo + Projeto - One For All
+
+##### Bloco 4: Introdução ao desenvolvimento Web com Node.js
+- [x] 4.1 - Node.js: Runtime Assíncrono
+- [x] 4.2 - Node.js: API REST com Express
+- [x] 4.3 - Node.js: Testes de Integração
+- [x] 4.4 - Node.js: Express e Middlewares
+- [x] 4.5 - Node.js: Express e MySQL
+- [x] 4.6 - **Projeto** - Projeto - Talker Manager
+
+##### Bloco 5: Arquitetura de Software: Model, Service e Controller
+- [x] 5.1 - Arquitetura de Software: Camada Model
+- [x] 5.2 - Arquitetura de Software: Camada Service
+- [x] 5.3 - Arquitetura de Software: Camada Controller
+- [x] 5.4 - **Projeto** - Store Manager
+
+##### Bloco 6: Node.js: ORM e Autenticação
+- [x] 6.1 - ORM - Interface da aplicação com o banco de dados
+- [x] 6.2 - ORM - Associations 1:1 e 1:N
+- [x] 6.3 - ORM - Associations N:N e Transactions
+- [x] 6.4 - JWT - (JSON Web Token)
+- [x] 6.5 - **Projeto** - API de Blogs
+
+##### Bloco 7: Masterclass: Implantação de Aplicações na Nuvem
+- [x] 7.1 - Infraestrutura: Deploy com Railway
+
+##### Bloco 8: Introdução a TypeScript
+- [x] 8.1 - Aprendendo TypeScript
+- [x] 8.2 - Introdução a Generics
+- [ ] 8.3 - API REST com Express, JWT, Sequelize e TypeScript
+- [ ] 8.4 - Testando Aplicações com TypeScript
+- [ ] 8.5 - **Projeto** - Trybesmith
+
+##### Bloco 9: Programação Orientada a Objetos (POO) e SOLID
+- [ ] 9.1 - Introdução à Orientação a Objetos
+- [ ] 9.2 - Herança e Composição
+- [ ] 9.3 - Polimorfismo
+- [ ] 9.4 - SOLID - Introdução e Princípios S, O e D
+- [ ] 9.5 - SOLID - Princípios L e I
+- [ ] 9.6 - **Projeto** - Trybers and Dragons
+
+##### Bloco 10: Projeto - TFC - Trybe Futebol Clube
+- [ ] 10.1 - Express com Classes
+- [ ] 10.2 - **Projeto** - TFC - Trybe Futebol Clube
