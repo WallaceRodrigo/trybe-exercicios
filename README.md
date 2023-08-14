@@ -165,18 +165,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 8: Introdução a TypeScript
 - [x] 8.1 - Aprendendo TypeScript
 - [x] 8.2 - Introdução a Generics
-- [ ] 8.3 - API REST com Express, JWT, Sequelize e TypeScript
-- [ ] 8.4 - Testando Aplicações com TypeScript
-- [ ] 8.5 - **Projeto** - Trybesmith
+- [x] 8.3 - API REST com Express, JWT, Sequelize e TypeScript
+- [x] 8.4 - Testando Aplicações com TypeScript
+- [x] 8.5 - **Projeto** - Trybesmith
 
 ##### Bloco 9: Programação Orientada a Objetos (POO) e SOLID
-- [ ] 9.1 - Introdução à Orientação a Objetos
-- [ ] 9.2 - Herança e Composição
-- [ ] 9.3 - Polimorfismo
-- [ ] 9.4 - SOLID - Introdução e Princípios S, O e D
-- [ ] 9.5 - SOLID - Princípios L e I
-- [ ] 9.6 - **Projeto** - Trybers and Dragons
+- [x] 9.1 - Introdução à Orientação a Objetos
+- [x] 9.2 - Herança e Composição
+- [x] 9.3 - Polimorfismo
+- [x] 9.4 - SOLID - Introdução e Princípios S, O e D
+- [x] 9.5 - SOLID - Princípios L e I
+- [x] 9.6 - **Projeto** - Trybers and Dragons
 
 ##### Bloco 10: Projeto - TFC - Trybe Futebol Clube
-- [ ] 10.1 - Express com Classes
-- [ ] 10.2 - **Projeto** - TFC - Trybe Futebol Clube
+- [x] 10.1 - Express com Classes
+- [x] 10.2 - **Projeto** - TFC - Trybe Futebol Clube
